@@ -10,10 +10,10 @@ SVGView.
 I shall update this project to work with other libraries when I come across them.
 The dream is to one day find an SVG Library that has the following syntax:
 
-  SVGImage *img = [SVGImage imageNamed:@"test.svg"];
-  SVGImageView *imgView = [[SVGImageView alloc] initWithFrame:self.view.bounds];
-  imgView.autoResizingMask = UIViewAutoResizingMaskFlexibleHeight | UIViewAutoResizingMaskFlexibleWidth;
-  imgView.image = img;
-  [self.view addSubview:imgView];
+    SVGImage *img = [SVGImage imageNamed:@"test.svg"];
+    SVGImageView *imgView = [[SVGImageView alloc] initWithFrame:self.view.bounds];
+    imgView.autoResizingMask = UIViewAutoResizingMaskFlexibleHeight | UIViewAutoResizingMaskFlexibleWidth;
+    imgView.image = img;
+    [self.view addSubview:imgView];
   
   
